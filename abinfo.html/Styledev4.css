@@ -1,0 +1,74 @@
+h1{
+color: aliceblue;    
+background-color: aqua;
+
+padding: 20px;
+text-align: center;
+}
+p{
+    color:blue;   
+    text-align: center; 
+    font-size: 45px;
+
+}
+p1{
+    color:gray;
+    text-align: left;
+}
+p2{
+    color:blue;
+    font-style: italic;
+    font-size: 20px;
+    .la creativite{
+        text-decoration: underline;
+    }
+    .souligne{
+        text-decoration: underline;
+    }
+    
+    
+
+}
+p3{
+    color:blue;
+    font-size: 20px;
+    font-style: oblique;
+
+
+}
+.barre{
+    text-decoration: line-through;
+}
+p4{
+    color: blue;
+    .bold{
+        font-weight: bold;
+    }
+    hr{
+        border:none;
+        height: 2px;
+        background-color: beige;
+        margin: 40px 0;
+    }
+    p5{
+        color: gray;
+        text-align: left;
+        font-size: small;
+    }
+    p6{
+        color: brown;
+        text-align: left;
+        text-decoration: underline;
+    }
+        footer {
+            background-color: #1a1a2e;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+    
+        footer p {
+            margin: 5px;
+            font-size: 14px;
+        }

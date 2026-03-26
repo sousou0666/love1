@@ -1,0 +1,20 @@
+body{
+    background-color: lightgreen;
+}
+h1{
+    color: blueviolet;
+}
+.paragraphe{
+    font-size: 20px;
+}
+.paragraphe.paire{
+    color: red;
+    text-align: center;
+}
+.paragraphe.impaire{
+    color: burlywood;
+    text-align: end;
+}
+#titre{
+    text-align: center;
+}

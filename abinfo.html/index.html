@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1>formulaire d'inscription</h1>
+</head>
+
+<body>
+
+
+
+
+    <label for="nom">nom</label><input type="text" id="nom" required>
+    <br>
+
+    <label for="mot de passe">mot de passe</label><input type="password" id="mot de passe" required>
+    <br>
+    <label for="email">email</label>
+    <input type="email" id="email" required>
+    <br>
+    <label for="age">age</label>
+    <input type="number" id="age" required>
+    <br>
+    <label for="date">date de naissance</label>
+    <input type="date" id="date" required>
+    <br>
+    <label for="couleur">couleur</label>
+    <input type="color" id="couleur preferer" required>
+    <br>
+    <label for="volume">volume</label>
+    <input type="range" id="volume" min="0" max="100" required>
+    <br>
+    <label for="photo de profil">photo de profil</label>
+    <input type="file" id="photo de profil" accept="image/*" required>
+    <br>
+    <select name="genre" required>
+        <option value="homme">homme</option>
+        <option value="femme">femme</option>
+    </select>
+    <select name="centre d'interet" required>
+        <option value="sport">sport</option>
+        <option value="musique">musique</option>
+        <option value="lecture">lecture</option>
+    </select>
+    <select name="niveau d'etude" required>
+        <option value="primaire">primaire</option>
+        <option value="secondaire">secondaire</option>
+        <option value="universitaire">universitaire</option>
+    </select>
+    <br>
+    <h4> pourquoi vous inscrire?</h4>
+    <br>
+    <textarea name="message" id="message" placeholder=" ecrire votre message" required></textarea>
+    <br>
+    <button type="submit">reintialiser</button>
+    <button type="submit">s'inscrire</button>
+    <br>
+    <p> image</p>
+    <br>
+    <figure><img src="photo.jpeg" alt="image"></figure>
+    <br>
+    <p>audio</p>
+    <audio src="horse.mp3.mp3" controls></audio>
+    <br>
+    <p> video mp4</p>
+    <br>
+    <video src="mov_bbb.mp4" controls></video>
+    <br>
+    <h1>liste des inscrites (exemple)</h1>
+    <table border="17">
+        <thead>
+
+
+            <th>nom</th>
+            <th>email</th>
+            <th>niveau</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>tiab</td>
+                <td>tiab@example.com</td>
+                <td>licsence</td>
+            </tr>
+            <tr>
+                <td>heraoya</td>
+                <td>heraoya@example.com</td>
+                <td>master</td>
+            </tr>
+
+
+
+
+        </tbody>
+
+
+
+
+
+
+
+    </table>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+</html>
